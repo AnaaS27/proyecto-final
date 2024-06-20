@@ -3,5 +3,5 @@ class Analizador:
         self.fecha = fecha
 
 def calcular_saldo_promedio(self, cuentas):
-        suma_saldos = sum(cuenta.saldo for cuenta in cuentas)
-        return suma_saldos / len(cuentas)
+        suma_saldo = sum(cuenta.saldo for cuenta in cuentas)
+        return suma_saldo / len(cuentas)
